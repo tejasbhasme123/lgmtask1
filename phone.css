@@ -1,0 +1,160 @@
+@media (max-width:1200px){
+    .batches{
+        flex-wrap: wrap;
+    }
+    .b{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:1052px){
+    .box2{
+        width:100%;
+    }
+    .box3 img{
+        display: none;
+        align-items: center;
+        
+    }
+    .video{
+        display: none;
+    }
+    
+}
+
+@media (max-width:900px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+    .chatbox{
+        width:80%;
+        margin-top: 10vh;
+    }
+    .cb{
+        width: 40%;
+        height:60vh;
+        margin-bottom: 30px;
+
+    }
+    .b{
+        height: 60vh;
+    }
+    .p{
+        display: none;
+    }
+    .b1:hover{
+        background-color: none;
+    }
+    .pb{
+        width: 40%;
+        margin-top: 5vh;
+    }
+    .team{
+        padding-top:50vh;
+    }
+    .teamm{
+        width: 100%;
+        height: 35vh;
+        flex-direction: row;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .t2{
+        margin: 0px 10px;
+    }
+    .form1{
+        width: 70%;
+    }
+}
+@media (max-width:620px){
+    .b{
+        width:40%;
+        height:40vh;
+    }
+    .img3 {
+        height: 31vh;
+    }
+    .img3 img{
+        height:35vh;
+    }
+    .cb{
+        display: none;
+    }
+    .pb{
+        width: 51%;
+        margin-top: 5vh;
+    }
+    .team{
+        padding-top:90vh;
+    }
+    .map{
+        width: 100%;
+        height: 40%;
+        order: 2;
+        
+    }
+    .form{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        align-items: center;
+    }
+    footer{
+        padding-top: 35vh;
+    }
+}
+
+@media (max-width:500px) {
+    .b{
+        width:60%;
+        
+    }
+    .left{
+        width:100%;
+    }
+    .right{
+        width:68%;
+        margin: 0px 50px;
+    }
+    a{
+        /* font-size: 12px; */
+        margin-right: 8px;
+    } 
+    .pb{
+        width: 70%;
+        margin-top: 5vh;
+    }
+
+}
+@media (max-width:450px) {
+    .right{
+        width:60%;
+        margin: 0px 58px;
+    }
+    a{
+        font-size: 13px;
+        margin-right: 8px;
+    } 
+    .chatbox{
+        padding-top: 20vh;
+    }
+    .h1, h1{
+        font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 14px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+
+}
